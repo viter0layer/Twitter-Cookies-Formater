@@ -18,4 +18,4 @@ with open("twitters.txt", "r") as file:
                      f'{{"name":"lang","value":"en","domain":"twitter.com","path":"/","httpOnly":false,"secure":false,"session":true,"expires":1711992709,"sameSite":"unspecified"}},' \
                      f'{{"name":"lang","value":"en","domain":"api.twitter.com","path":"/","httpOnly":false,"secure":false,"session":true,"expires":1711992709,"sameSite":"unspecified"}}'
 
-        print(js_cookies)
+        print(js_cookies) # 1
